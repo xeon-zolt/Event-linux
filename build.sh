@@ -9,8 +9,7 @@ install_dir=arch
 work_dir=work
 out_dir=~/ISO/Event-Linux-ISO
 gpg_key=
-
-Event-Linux=$(uname -m)
+arch=$(uname -m)
 verbose=""
 script_path=$(readlink -f ${0%/*})
 
