@@ -3,14 +3,14 @@
 set -e -u
 
 iso_name=archlinux
-iso_label="ARCH_$(date +%Y%m)"
+iso_label="Event_Linux_$(date +%Y%m)"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
 work_dir=work
-out_dir=out
+out_dir=~/ISO/Event-Linux-ISO
 gpg_key=
 
-arch=$(uname -m)
+Event-Linux=$(uname -m)
 verbose=""
 script_path=$(readlink -f ${0%/*})
 
