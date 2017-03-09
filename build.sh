@@ -2,7 +2,7 @@
 
 set -e -u
 
-iso_name=archlinux
+iso_name=Event_Linux
 iso_label="Event_Linux_$(date +%Y%m)"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
