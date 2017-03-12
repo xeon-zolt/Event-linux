@@ -4,7 +4,7 @@ set -e -u
 
 iso_name=Event_Linux
 iso_label="Event_Linux_$(date +%Y%m)"
-iso_version=$(date +%Y.%m.%d)
+iso_version=$(date +%Y.%d.%h.%Hh) #due to regular building hour is included
 install_dir=arch
 work_dir=work
 out_dir=~/ISO/Event-linux-ISO
