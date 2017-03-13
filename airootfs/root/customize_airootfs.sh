@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#things from archiso
 set -e -u
 
 sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
@@ -21,3 +22,8 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default graphical.target
+
+#LightDm
+systemctl enable lightdm.service
+
+

@@ -1,4 +1,4 @@
-arch-install-scripts
+alsa-utils
 clonezilla
 crda
 darkhttpd
@@ -49,6 +49,36 @@ wget
 wvdial
 xl2tpd
 
+icu
+libmtp
+xz
+boost
+boost-libs
+x264
+xdg-user-dirs-gtk
+ttf-arphic-uming
+ttf-baekmuk
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-freefont
+ttf-liberation
+unrar
+unzip
+usb_modeswitch
+smartmontools
+splix
+tar
+tlp
+samba
+efitools
+python-lxml
+python-mako
+python-mock
+openssh
+os-prober
+pkgfile
+
 # Xorg & Graphics Drivers
 
 mesa
@@ -56,15 +86,44 @@ mesa-vdpau
 virtualbox-guest-modules-arch
 virtualbox-guest-utils
 xf86-input-synaptics
+#xf86-video-apm
+#xf86-video-ark
 xf86-video-ati
+#xf86-video-chips
+xf86-video-dummy
 xf86-video-fbdev
+#xf86-video-glint
+#xf86-video-i128
+#xf86-video-i740
 xf86-video-intel
+#xf86-video-mach64
+#xf86-video-neomagic
 xf86-video-nouveau
+#xf86-video-nv
 xf86-video-openchrome
+#xf86-video-r128
+#xf86-video-rendition
+#xf86-video-s3
+#xf86-video-s3virge
+#xf86-video-savage
+#xf86-video-siliconmotion
+#xf86-video-sis
+xf86-video-sisusb
+#xf86-video-tdfx
+#xf86-video-trident
+#xf86-video-tseng
 xf86-video-vesa
 xf86-video-vmware
+xf86-video-voodoo
 xorg-server
 xorg-server-utils
+xorg-xinit 
+xorg-utils
+xorg-twm 
+xterm 
+xorg-xclock
+xorg-fonts
+xorg-xkill
 
 # Network
 
@@ -113,5 +172,9 @@ lightdm-gtk-greeter
 
 #Desktop 
 cinnamon
+nemo-fileroller
+numix-gtk-theme
 
+#installation
+#calamares
 
