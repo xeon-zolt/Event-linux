@@ -1,0 +1,19 @@
+{
+  "sudo": "required",
+  "arch": {
+    "repos": null,
+    "packages": [
+      "archiso"
+    ],
+    "script": [
+      "sudo ./build.sh -v"
+    ]
+  },
+  "script": [
+    "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
+  ],
+  "language": "ruby",
+  "group": "stable",
+  "dist": "precise",
+  "os": "linux"
+}
