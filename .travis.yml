@@ -1,15 +1,15 @@
 sudo: required
 arch:
   packages:
-    # pacman packages
-    - archiso
-    #- python
+     pacman packages
+    - archisohttps://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
+Contact GitHub API Training Shop Blog About
+
+    - python
     #- perl
-    # aur packages
+    #aur packages
     #- go-git
-    # packages from papyros repo
-    #- papyros-shell
-  script:
+      script:
     - "sudo ./build.sh -v"
 
 script:
