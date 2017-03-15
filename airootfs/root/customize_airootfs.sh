@@ -26,4 +26,5 @@ systemctl set-default graphical.target
 #LightDm
 systemctl enable lightdm.service
 
-
+#Cinnamon conf
+dconf load /org/cinnamon < required_settings
