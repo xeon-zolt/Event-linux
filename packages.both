@@ -174,7 +174,20 @@ lightdm-gtk-greeter
 cinnamon
 nemo-fileroller
 numix-gtk-theme
+dconf
+
+#apps
+git
+#dropbox
+owncloud-client
+
+#Editors
+gedit
+gvim
+
+#Browser
+firefox
+chromium
 
 #installation
 #calamares
-

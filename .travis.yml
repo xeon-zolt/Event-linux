@@ -1,0 +1,16 @@
+sudo: required
+arch:
+  packages:
+    # pacman packages
+    - archiso
+    #- python
+    #- perl
+    # aur packages
+    #- go-git
+    # packages from papyros repo
+    #- papyros-shell
+  script:
+    - "sudo ./build.sh -v"
+
+script:
+  - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
