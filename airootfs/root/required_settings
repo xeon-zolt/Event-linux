@@ -1,14 +1,32 @@
 [/]
-panels-autohide=['1:intel']
-panels-resizable=['1:true']
+desktop-effects-unmaximize-transition='easeNone'
+desktop-effects-maximize-transition='easeInExpo'
+desktop-effects-map-effect='traditional'
+desktop-effects-close-effect='traditional'
 panels-scale-text-icons=['1:false']
-panel-edit-mode=false
-enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:window-list@cinnamon.org:3', 'panel1:right:0:notifications@cinnamon.org:4', 'panel1:right:1:user@cinnamon.org:5', 'panel1:right:2:removable-drives@cinnamon.org:6', 'panel1:right:3:keyboard@cinnamon.org:7', 'panel1:right:4:bluetooth@cinnamon.org:8', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:7:power@cinnamon.org:11', 'panel1:right:8:systray@cinnamon.org:12', 'panel1:right:9:calendar@cinnamon.org:13', 'panel1:right:10:windows-quick-list@cinnamon.org:14']
-next-applet-id=15
 enabled-desklets=@as []
-panel-launchers=['DEPRECATED']
-no-adjacent-panel-barriers=false
+desktop-effects-map-time=175
+desktop-effects-unmaximize-time=100
+desktop-effects-minimize-effect='traditional'
 panels-height=['1:24']
+next-applet-id=15
+panel-launchers=['DEPRECATED']
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-unmaximize-effect='none'
+desktop-effects-maximize-time=100
+panels-resizable=['1:true']
+desktop-effects-maximize-effect='none'
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:window-list@cinnamon.org:3', 'panel1:right:0:notifications@cinnamon.org:4', 'panel1:right:1:user@cinnamon.org:5', 'panel1:right:2:removable-drives@cinnamon.org:6', 'panel1:right:3:keyboard@cinnamon.org:7', 'panel1:right:4:bluetooth@cinnamon.org:8', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:7:power@cinnamon.org:11', 'panel1:right:8:systray@cinnamon.org:12', 'panel1:right:9:calendar@cinnamon.org:13', 'panel1:right:10:windows-quick-list@cinnamon.org:14']
+desktop-effects-minimize-time=200
+desktop-effects-minimize-transition='easeInQuad'
+desktop-effects-tile-effect='none'
+desktop-effects-close-transition='easeOutQuad'
+desktop-effects-tile-transition='easeInQuad'
+panel-edit-mode=false
+desktop-effects-close-time=175
+no-adjacent-panel-barriers=false
+panels-autohide=['1:intel']
+desktop-effects-tile-time=100
 
 [settings-daemon/plugins/power]
 button-power='suspend'
@@ -40,6 +58,9 @@ drag-threshold=8
 double-click=400
 locate-pointer=false
 
+[sounds]
+close-enabled=false
+
 [muffin]
 button-layout='menu,shade,stick:minimize,maximize,close'
 tile-maximize=true
@@ -48,7 +69,10 @@ resize-threshold=24
 workspace-cycle=true
 tile-hud-threshold=25
 
-
+[desktop/interface]
+icon-theme='Sardi-Orb-Colora'
+gtk-theme='Numix'
+toolkit-accessibility=false
 
 [desktop/keybindings/wm]
 switch-to-workspace-right=['<Control><Alt>Right']
@@ -78,6 +102,7 @@ remember-recent-files=true
 
 [desktop/wm/preferences]
 min-window-opacity=35
+theme='Numix'
 action-scroll-titlebar='opacity'
 num-workspaces=3
 workspace-names=['main', 'talk', 'gtk']
@@ -118,8 +143,8 @@ dwell-click-enabled=false
 [desktop/sound]
 event-sounds=false
 
+[desktop/background]
+picture-uri='file:///root/Pictures/BashMug.jpg'
+
 [cinnamon-session]
 quit-time-delay=60
-
-[sounds]
-close-enabled=false
