@@ -1,18 +1,16 @@
-#sudo: required
-#arch:
-#  packages:
-    # pacman packages
-#    - archisohttps://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
+sudo: required
+arch:
+  packages:
+     pacman packages
+    - archisohttps://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
 Contact GitHub API Training Shop Blog About
 
-    #- python
+    - python
     #- perl
-    # aur packages
+    #aur packages
     #- go-git
-    # packages from papyros repo
-    #- papyros-shell
-#  script:
-#    - "sudo ./build.sh -v"
+      script:
+    - "sudo ./build.sh -v"
 
 script:
   - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
