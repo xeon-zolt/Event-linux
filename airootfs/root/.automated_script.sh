@@ -1,8 +1,10 @@
 #!/bin/bash
 
+dconf load /org/cinnamon/ < required_settings
 script_cmdline ()
 {
     local param
+
     for param in $(< /proc/cmdline); do
         case "${param}" in
             script=*) echo "${param#*=}" ; return 0 ;;
