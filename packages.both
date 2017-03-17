@@ -182,7 +182,10 @@ git
 owncloud-client
 vlc
 gimp
-Inkscape
+inkscape
+libreoffice-fresh
+pidgin
+
 #Browser
 firefox
 chromium
