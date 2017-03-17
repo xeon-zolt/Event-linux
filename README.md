@@ -26,3 +26,8 @@
  * update to latest version (without password)
  * switch off screen dimming
  * switch off power management saving features
+
+### FIX
+* Creation of liveuser
+* autologin Via LightDM
+* Connetion to WiFi via Networkmanager of cinnamon not via WifiMenu(CLI)
