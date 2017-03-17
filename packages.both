@@ -180,14 +180,19 @@ dconf
 git
 #dropbox
 owncloud-client
+vlc
+gimp
+Inkscape
+#Browser
+firefox
+chromium
+#chrome
 
 #Editors
 gedit
 gvim
 
-#Browser
-firefox
-chromium
+
 
 #installation
 #calamares
