@@ -4,17 +4,18 @@
 
 * ~~Add Cinnamon~~
 * Apps
-  * ~~VLC~~ 
+  * ~~VLC~~ (set as default)
+    * add qt4 libs of VLC GUI
   * ~~LibreOffice~~
   * ~~Gimp~~ 
   * ~~Inkscape~~
   * ~~GIT~~
   * ~~Firefox~~ 
-  * Chrome
+  * Chrome (Use AUR)
   * ~~Chromium~~
   * ~~Gtalk/Hangout~~ (using pidgin)
   * ~~ownCloud~~
-  * Dropbox
+  * Dropbox (Use AUR)
  * auto hide pannel (intellihide) 
  * Switch off notifications
  * Switch off screensaver and sleep modus
