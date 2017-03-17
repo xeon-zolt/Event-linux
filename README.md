@@ -4,16 +4,16 @@
 
 * ~~Add Cinnamon~~
 * Apps
-  * VLC 
+  * ~~VLC~~ 
   * LibreOffice
-  * Gimp 
-  * Inkscape
-  * GIT
-  * Firefox 
+  * ~~Gimp~~ 
+  * ~~Inkscape~~
+  * ~~GIT~~
+  * ~~Firefox~~ 
   * Chrome
-  * Chromium
+  * ~~Chromium~~
   * Gtalk/Hangout
-  * ownCloud
+  * ~~ownCloud~~
   * Dropbox
  * auto hide pannel (intellihide) 
  * Switch off notifications
