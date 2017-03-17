@@ -181,9 +181,13 @@ git
 #dropbox
 owncloud-client
 vlc
+#Vlc Gui
+qt4
+
 gimp
 inkscape
 libreoffice-fresh
+#For gtalk/hangout
 pidgin
 
 #Browser
