@@ -5,14 +5,14 @@
 * ~~Add Cinnamon~~
 * Apps
   * ~~VLC~~ 
-  * LibreOffice
+  * ~~LibreOffice~~
   * ~~Gimp~~ 
   * ~~Inkscape~~
   * ~~GIT~~
   * ~~Firefox~~ 
   * Chrome
   * ~~Chromium~~
-  * Gtalk/Hangout
+  * ~~Gtalk/Hangout~~ (using pidgin)
   * ~~ownCloud~~
   * Dropbox
  * auto hide pannel (intellihide) 
