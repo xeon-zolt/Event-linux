@@ -178,7 +178,7 @@ dconf
 
 #apps
 git
-#dropbox
+dropbox
 owncloud-client
 vlc
 #Vlc Gui
@@ -193,7 +193,7 @@ pidgin
 #Browser
 firefox
 chromium
-#chrome
+#google-chrome
 
 #Editors
 gedit
