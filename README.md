@@ -5,7 +5,7 @@
 * ~~Add Cinnamon~~
 * Apps
   * ~~VLC~~ (set as default)
-    * add qt4 libs of VLC GUI
+    * ~~add qt4 libs of VLC GUI~~
   * ~~LibreOffice~~
   * ~~Gimp~~ 
   * ~~Inkscape~~
@@ -29,6 +29,6 @@
  * switch off power management saving features
 
 ### FIX
-* Creation of liveuser
+* ~~Creation of liveuser~~
 * autologin Via LightDM
 * Connetion to WiFi via Networkmanager of cinnamon not via WifiMenu(CLI)
