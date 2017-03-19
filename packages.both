@@ -26,7 +26,6 @@ nilfs-utils
 nmap
 ntp
 openconnect
-openssh
 openvpn
 partclone
 parted
@@ -160,7 +159,7 @@ squashfs-tools
 xfsprogs
 #zfs
 
-
+#gdm
 # LightDM
 lightdm
 lightdm-gtk-greeter 
@@ -172,27 +171,29 @@ lightdm-gtk-greeter
 
 #Desktop 
 cinnamon
+mutter
+network-manager-applet
 nemo-fileroller
 numix-gtk-theme
 dconf
 
 #apps
-git
-dropbox
-owncloud-client
-vlc
+#git
+#dropbox
+#owncloud-client
+#vlc
 #Vlc Gui
-qt4
+#qt4
 
-gimp
-inkscape
-libreoffice-fresh
+#gimp
+#inkscape
+#libreoffice-fresh
 #For gtalk/hangout
-pidgin
+#pidgin
 
 #Browser
-firefox
-chromium
+#firefox
+#chromium
 #google-chrome
 
 #Editors
