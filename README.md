@@ -12,7 +12,7 @@
   * ~~GIT~~
   * ~~Firefox~~ 
   * Google Chrome (Use AUR)
-  * ~~ Chromium~~
+  * ~~Chromium~~
   * ~~Gtalk/Hangout~~ (using pidgin)
   * ~~ownCloud~~
   * ~~Dropbox ~~
