@@ -11,11 +11,11 @@
   * ~~Inkscape~~
   * ~~GIT~~
   * ~~Firefox~~ 
-  * Chrome (Use AUR)
-  * ~~Chromium~~
+  * Google Chrome (Use AUR)
+  * ~~ Chromium~~
   * ~~Gtalk/Hangout~~ (using pidgin)
   * ~~ownCloud~~
-  * Dropbox (Use AUR)
+  * ~~Dropbox ~~
  * auto hide pannel (intellihide) 
  * Switch off notifications
  * Switch off screensaver and sleep modus
