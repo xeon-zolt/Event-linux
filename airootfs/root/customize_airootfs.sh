@@ -31,6 +31,8 @@ passwd -d liveuser
 systemctl enable lightdm.service
 
 #Cinnamon conf
+gsettings set org.cinnamon.desktop.notifications display-notifications false
+
 #dconf load /org/cinnamon/ < required_settings
 
 #Enable Sudo
