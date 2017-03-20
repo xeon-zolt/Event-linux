@@ -1,0 +1,18 @@
+Window manager warning: Software rendering detected: Gallium 0.4 on llvmpipe (LLVM 3.9, 256 bits)
+Window manager warning: Failed to load theme "Adwaita": Failed to find a valid file for theme Adwaita
+
+Window manager warning: Could not find theme Adwaita. Falling back to default theme.Failed to play sound: Sound disabled
+
+(nm-applet:798): nm-applet-WARNING **: NetworkManager is not running
+Cjs-Message: JS LOG: About to start Cinnamon
+Cjs-Message: JS LOG: ACTIVATING SOFTWARE RENDERING
+St-Message: cogl npot texture sizes SUPPORTED
+Cjs-Message: JS LOG: Cinnamon started at Mon Mar 20 2017 09:21:47 GMT+0000 (UTC)
+openGL version 3.3 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+
+(nemo:797): Gtk-WARNING **: Allocating size to NemoWindowPane 0x1752390 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Window manager warning: Failed to load theme "Adwaita": Failed to find a valid file for theme Adwaita
+
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
