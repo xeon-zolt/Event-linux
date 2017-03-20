@@ -1,5 +1,7 @@
 # Event-linux
 
+## Download
+https://sourceforge.net/projects/event-linux/files/
 ### FIX
 * ~~Creation of liveuser~~
 * autologin Via LightDM
