@@ -194,7 +194,7 @@ pidgin
 #Browser
 firefox
 chromium
-#google-chrome
+google-chrome
 
 #Editors
 gedit
