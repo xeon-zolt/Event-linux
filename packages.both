@@ -181,6 +181,7 @@ git
 dropbox
 owncloud-client
 vlc
+gnome-terminal
 #Vlc Gui
 qt4
 

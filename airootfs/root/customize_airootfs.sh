@@ -44,3 +44,7 @@ gsettings set org.cinnamon.desktop.notifications display-notifications false
     sed -i /etc/pam.d/su -e 's/auth      sufficient  pam_wheel.so trust use_uid/#auth        sufficient  pam_wheel.so trust use_uid/'
 #Try to do sudo again
     chmod -R 755 /etc/sudoers.d
+
+
+#enable Networks
+systemctl enable NetworkManager.service

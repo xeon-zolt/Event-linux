@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=chromium http://fossasia.org
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=Foss asia event page
+Comment[en_US]=to launch fossasia event page on startup
+X-GNOME-Autostart-Delay=5

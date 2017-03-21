@@ -1,0 +1,74 @@
+{
+   "checksum": "40b50663fb653a0397bcba2dd67a2d9f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13134593932000000",
+            "id": "6",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13134593932000000",
+                  "id": "9",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/help/"
+               }, {
+                  "date_added": "13134593932000000",
+                  "id": "10",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13134593932000000",
+                  "id": "11",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13134593932000000",
+                  "id": "12",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               } ],
+               "date_added": "13134594068357367",
+               "date_modified": "0",
+               "id": "8",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13134594068356973",
+            "date_modified": "13134594068356973",
+            "id": "7",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13134594055569320",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13134594055569326",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13134594055569327",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
