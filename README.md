@@ -8,7 +8,7 @@ https://sourceforge.net/projects/event-linux/files/
 * Connetion to WiFi via Networkmanager of cinnamon not via WifiMenu(CLI)
 
 ### TODO
-* Add clamaris installer
+* Add installer
 * ~~Add Cinnamon~~
 * Apps
   * ~~VLC~~ (set as default)
@@ -25,11 +25,11 @@ https://sourceforge.net/projects/event-linux/files/
   * ~~Dropbox~~
  * ~~auto hide pannel (intellihide)~~ 
  * ~~Switch off notifications~~
- * Switch off screensaver and sleep modus
+ * ~~Switch off screensaver and sleep modus~~
  * ~~Switch off system sounds~~
  * disable bookmarks in browser
  * ~~Pre-set start system without password~~
- * set http://2017.fossasia.org as start page and set "re-start with last opened tabs" (in case laptop is crashing)
+ * ~~set http://2017.fossasia.org as start page and set "re-start with last opened tabs" (in case laptop is crashing)~~
  * ~~change desktop background~~
  * ~~update to latest version (without password)~~
  * ~~switch off screen dimming~~
