@@ -31,10 +31,10 @@ while True:
         import os
         if DE == 'gnome' or DE == '1':
             os.system('cat packages packages.gnome | tee packages.both')
-            os.system('./build.sh -v')
+            os.system('sudo ./build.sh -v')
         elif DE == 'cinnamon' or DE == '2':
             os.system('cat packages packages.cinnamon | tee packages.both')
-            os.system('./build.sh -v')
+            os.system('sudo ./build.sh -v')
         break
 
     elif base == 'ubuntu' or base == '2':
