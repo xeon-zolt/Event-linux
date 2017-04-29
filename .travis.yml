@@ -1,13 +1,11 @@
 sudo: required
+
 arch:
   packages:
-     pacman packages
+  packages:
+    # pacman packages
     - archiso
-    #- python
-    #- perl
-    #aur packages
-    #- go-git
-      script:
+  script:
     - "sudo ./build.sh -v"
 
 script:
