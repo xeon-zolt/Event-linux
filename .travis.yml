@@ -5,7 +5,8 @@ arch:
   packages:
     # pacman packages
     - archiso
-  script: 
+  script:
+    - "./build-repo" 
     - "sudo ./build.sh -v"
 
 script:
