@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#updating pacman conf
+ echo '#custom repository' >> pacman.conf
+ echo '[Event-Linux]' >> pacman.conf
+ echo 'SigLevel = Optional TrustAll' >> pacman.conf
+ echo Server = file://$(pwd)/repo/'$arch' >> pacman.conf         
+#downloading pkgbuild
+cd pkgbuilds
+#yaourt -G cava
+yaourt -G dropbox
+yaourt -G google-chrome
+cd ..
+#building pkg
+#./add_package_to_repository.pl cava
+./add_package_to_repository.pl dropbox
+./add_package_to_repository.pl google-chrome
+cd repo
+./update_repo_db.sh
