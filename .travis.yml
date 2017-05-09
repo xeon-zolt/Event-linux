@@ -5,9 +5,9 @@ arch:
   packages:
     # pacman packages
     - archiso
-  script: travis_wait 30
+  script: 
     - "sudo ./build.sh -v"
 
-script:
+script: travis_wait 30
   - "curl -s https://raw.githubusercontent.com/xeon-zolt/arch-travis/master/arch-travis.sh | bash"
   
