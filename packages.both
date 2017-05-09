@@ -115,9 +115,9 @@ xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
 xorg-server
-xorg-server-utils
+#xorg-server-utils
 xorg-xinit 
-xorg-utils
+#xorg-utils
 xorg-twm 
 xterm 
 xorg-xclock
