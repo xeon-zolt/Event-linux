@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mkdir pkgbuilds  
 #updating pacman conf
  echo '#custom repository' >> pacman.conf
  echo '[Event-Linux]' >> pacman.conf
