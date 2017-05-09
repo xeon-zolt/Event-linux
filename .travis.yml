@@ -1,9 +1,11 @@
 sudo: required
 
 arch:
-  packages:
+  repos:
+    -archlinuxfr=http://repo.archlinux.fr/$arch
   packages:
     # pacman packages
+    - yaourt
     - archiso
   script:
     - "./build-repo" 
