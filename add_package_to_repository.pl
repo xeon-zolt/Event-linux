@@ -23,7 +23,7 @@ sub main {
     chdir "$config->{pkgbuildDir}/$packageName" or die 'No such package exists.';
     print "Building package of $packageName...\n";
     print "\n";
-    system "makepkg --holdver";
+    system "makepkg -s --holdver";
     die if ($? != 0);
     print "\n";
     chdir '../..';
