@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e -u
+
+curl -s https://raw.githubusercontent.com/xeon-zolt/arch-travis/master/arch-travis.sh | bash"
