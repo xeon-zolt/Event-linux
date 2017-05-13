@@ -7,7 +7,7 @@ arch:
     # pacman packages
     - yaourt
     - archiso
-  script: travis_wait 30
+  script:
     - ./build-repo
     - sudo ./build.sh -v
 
