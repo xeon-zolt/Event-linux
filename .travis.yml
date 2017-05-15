@@ -1,5 +1,5 @@
 sudo: required
-
+- export -f travis_wait
 arch:
   repos:
     - archlinuxfr=http://repo.archlinux.fr/$arch
