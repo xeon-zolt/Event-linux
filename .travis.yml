@@ -1,6 +1,3 @@
-before_install:
-- export -f travis_wait
-
 sudo: required
 
 arch:
@@ -11,6 +8,7 @@ arch:
     - yaourt
     - archiso
   script:
+    - export -f travis_wait
     - travis_wait 30 ./build-repo
     - travis_wait 30 sudo ./build.sh -v
 
