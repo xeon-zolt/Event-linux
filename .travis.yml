@@ -12,7 +12,9 @@ arch:
     - travis_wait 30 ./build-repo
     - travis_wait 30 sudo ./build.sh -v
 
+before_install:
+- export -f travis_wait
+
 script:
-  - export -f travis_wait
   - "curl -s https://raw.githubusercontent.com/xeon-zolt/arch-travis/master/arch-travis.sh | bash"
   
