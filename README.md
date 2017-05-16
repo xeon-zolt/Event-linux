@@ -1,5 +1,5 @@
 # Event-linux
-
+[![Build Status](https://travis-ci.org/xeon-zolt/Event-linux.svg?branch=master)](https://travis-ci.org/xeon-zolt/Event-linux)
 ## Download
 https://sourceforge.net/projects/event-linux/files/
 ### FIX
