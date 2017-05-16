@@ -16,5 +16,7 @@ before_install:
 - export -f travis_wait
 
 script:
-  - travis_wait 30 sh -c "curl -s https://raw.githubusercontent.com/xeon-zolt/arch-travis/master/arch-travis.sh | bash"
-  
+  - "travis_wait 30 sleep 1800 &"
+  - curl -s https://raw.githubusercontent.com/xeon-zolt/arch-travis/master/arch-travis.sh | bash
+
+
