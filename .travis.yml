@@ -10,7 +10,7 @@ arch:
   script:
 
     - ./build-repo
-    - ./build.sh -v
+    - sudo ./build.sh -v
 
 script:
   - "travis_wait 30 sleep 1800 &"
