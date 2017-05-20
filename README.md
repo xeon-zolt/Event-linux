@@ -5,7 +5,7 @@ https://sourceforge.net/projects/event-linux/files/
 ### FIX
 * ~~Creation of liveuser~~
 * autologin Via LightDM
-* Connetion to WiFi via Networkmanager of cinnamon not via WifiMenu(CLI)
+* ~~Connetion to WiFi via Networkmanager of cinnamon not via WifiMenu(CLI)~~
 
 ### TODO
 * Add installer
