@@ -84,7 +84,7 @@ mesa
 mesa-vdpau
 virtualbox-guest-modules-arch
 virtualbox-guest-utils
-xf86-input-synaptics
+libinput
 #xf86-video-apm
 #xf86-video-ark
 xf86-video-ati
